@@ -1,0 +1,17 @@
+{
+  "name": "upload_image",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "start": "func start",
+    "test": "echo \"No tests yet...\"",
+    "build": "webpack --mode=development"
+  },
+  "dependencies": {
+    "@azure/storage-blob": "^12.2.0-preview.1"
+  },
+  "devDependencies": {
+    "webpack": "^4.46.0",
+    "webpack-cli": "^3.3.12"
+  }
+}
